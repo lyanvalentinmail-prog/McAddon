@@ -38,11 +38,17 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ github.ref_name }}
         run: |
-          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
-            gh release upload "$GITHUB_REF_NAME" dist/* --clobber
+          NOTES=".github/release-notes/${TAG}.md"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/* --clobber
+          elif [ -f "$NOTES" ]; then
+            gh release create "$TAG" dist/* \
+              --title "Berrocal $TAG" \
+              --notes-file "$NOTES"
           else
-            gh release create "$GITHUB_REF_NAME" dist/* \
-              --title "Berrocal $GITHUB_REF_NAME" \
+            gh release create "$TAG" dist/* \
+              --title "Berrocal $TAG" \
               --generate-notes
           fi
