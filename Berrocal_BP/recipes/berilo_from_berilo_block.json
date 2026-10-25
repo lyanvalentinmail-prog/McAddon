@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "berrocal:berilo_from_berilo_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "berrocal:berilo_block"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "berrocal:berilo_block"
+      }
+    ],
+    "result": {
+      "item": "berrocal:berilo",
+      "count": 9
+    }
+  }
+}

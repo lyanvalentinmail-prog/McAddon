@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "berrocal:berilo_block",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "berrocal:berilo_block",
+          "render_method": "opaque",
+          "isotropic": false
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2,
+        "item_specific_speeds": [
+          {
+            "item": {
+              "tags": "q.any_tag('minecraft:is_pickaxe')"
+            },
+            "destroy_speed": 0.4
+          }
+        ]
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 6
+      },
+      "minecraft:map_color": "#2e9c64",
+      "minecraft:friction": 0.6
+    }
+  }
+}

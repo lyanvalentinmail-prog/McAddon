@@ -1,0 +1,14 @@
+pack.name=Berrocal
+pack.description=El mundo de granito de Berrocal: berruecos, rocas con musgo, mena de berilo, gemas y herramientas.
+
+tile.berrocal:berrocal_block.name=Bloque de Berrocal
+tile.berrocal:mossy_berrocal.name=Berrocal Musgoso
+tile.berrocal:polished_berrocal.name=Berrocal Pulido
+tile.berrocal:berrocal_bricks.name=Ladrillos de Berrocal
+tile.berrocal:berrocal_ore.name=Mena de Berilo
+tile.berrocal:berilo_block.name=Bloque de Berilo
+tile.berrocal:berrocal_lamp.name=Lámpara de Berrocal
+
+item.berrocal:berilo.name=Berilo
+item.berrocal:berilo_pickaxe.name=Pico de Berilo
+item.berrocal:berilo_sword.name=Espada de Berilo

@@ -1,0 +1,14 @@
+pack.name=Berrocal
+pack.description=The granite world of Berrocal: boulders, mossy rocks, beryl ore, gems and tools.
+
+tile.berrocal:berrocal_block.name=Berrocal Block
+tile.berrocal:mossy_berrocal.name=Mossy Berrocal
+tile.berrocal:polished_berrocal.name=Polished Berrocal
+tile.berrocal:berrocal_bricks.name=Berrocal Bricks
+tile.berrocal:berrocal_ore.name=Berrocal Beryl Ore
+tile.berrocal:berilo_block.name=Block of Beryl
+tile.berrocal:berrocal_lamp.name=Berrocal Lamp
+
+item.berrocal:berilo.name=Beryl
+item.berrocal:berilo_pickaxe.name=Beryl Pickaxe
+item.berrocal:berilo_sword.name=Beryl Sword

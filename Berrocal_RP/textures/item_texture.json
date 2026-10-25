@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "berrocal",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "berrocal:berilo": {
+      "textures": "textures/items/berilo"
+    },
+    "berrocal:berilo_pickaxe": {
+      "textures": "textures/items/berilo_pickaxe"
+    },
+    "berrocal:berilo_sword": {
+      "textures": "textures/items/berilo_sword"
+    }
+  }
+}

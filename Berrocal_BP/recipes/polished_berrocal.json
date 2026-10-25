@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "berrocal:polished_berrocal"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "berrocal:berrocal_block"
+      }
+    },
+    "unlock": [
+      {
+        "item": "berrocal:berrocal_block"
+      }
+    ],
+    "result": {
+      "item": "berrocal:polished_berrocal",
+      "count": 4
+    }
+  }
+}

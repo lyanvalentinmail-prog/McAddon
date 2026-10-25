@@ -1,0 +1,53 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "berrocal:berilo_sword",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": "berrocal:berilo_sword",
+      "minecraft:display_name": {
+        "value": "item.berrocal:berilo_sword.name"
+      },
+      "minecraft:hover_text_color": "green",
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 1680,
+        "damage_chance": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["berrocal:berilo"],
+            "repair_amount": "query.max_durability * 0.25"
+          },
+          {
+            "items": ["berrocal:berilo_sword"],
+            "repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 14
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          { "block": "minecraft:web", "speed": 15 },
+          { "block": "minecraft:bamboo", "speed": 10 }
+        ]
+      },
+      "minecraft:damage": {
+        "value": 8
+      }
+    }
+  }
+}

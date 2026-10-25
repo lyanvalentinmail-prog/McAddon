@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "berrocal:berrocal_lamp"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " # ",
+      "#G#",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "berrocal:polished_berrocal"
+      },
+      "G": {
+        "item": "berrocal:berilo"
+      }
+    },
+    "unlock": [
+      {
+        "item": "berrocal:berilo"
+      }
+    ],
+    "result": {
+      "item": "berrocal:berrocal_lamp",
+      "count": 2
+    }
+  }
+}
