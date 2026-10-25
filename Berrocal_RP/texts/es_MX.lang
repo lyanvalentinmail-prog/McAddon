@@ -12,3 +12,8 @@ tile.berrocal:berrocal_lamp.name=Lámpara de Berrocal
 item.berrocal:berilo.name=Berilo
 item.berrocal:berilo_pickaxe.name=Pico de Berilo
 item.berrocal:berilo_sword.name=Espada de Berilo
+
+# Alias sin sufijo, por si el juego usa la clave base
+item.berrocal:berilo=Berilo
+item.berrocal:berilo_pickaxe=Pico de Berilo
+item.berrocal:berilo_sword=Espada de Berilo

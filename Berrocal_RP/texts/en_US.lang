@@ -12,3 +12,8 @@ tile.berrocal:berrocal_lamp.name=Berrocal Lamp
 item.berrocal:berilo.name=Beryl
 item.berrocal:berilo_pickaxe.name=Beryl Pickaxe
 item.berrocal:berilo_sword.name=Beryl Sword
+
+# Alias sin sufijo, por si el juego usa la clave base
+item.berrocal:berilo=Beryl
+item.berrocal:berilo_pickaxe=Beryl Pickaxe
+item.berrocal:berilo_sword=Beryl Sword
