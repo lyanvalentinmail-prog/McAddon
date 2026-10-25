@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Berrocal · Recursos",
+    "description": "Texturas, texturas de bloque y traducciones del addon Berrocal. (Resource Pack)",
+    "uuid": "541d661e-0711-4010-8e26-4f90c089d16e",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "description": "Texturas e idiomas de Berrocal.",
+      "type": "resources",
+      "uuid": "f7057ebd-a0b0-49e0-b164-7d137478195c",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["lyanvalentin"],
+    "license": "MIT",
+    "url": "https://github.com/lyanvalentinmail-prog/McAddon"
+  }
+}

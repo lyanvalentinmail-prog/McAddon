@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "berrocal:stonecutter_polished_berrocal"
+    },
+    "tags": ["stonecutter"],
+    "priority": 2,
+    "ingredients": [
+      { "item": "berrocal:berrocal_block" }
+    ],
+    "unlock": [
+      { "item": "berrocal:berrocal_block" }
+    ],
+    "result": {
+      "item": "berrocal:polished_berrocal",
+      "count": 1
+    }
+  }
+}

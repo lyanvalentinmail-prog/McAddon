@@ -1,0 +1,29 @@
+{
+  "resource_pack_name": "berrocal",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "berrocal:berrocal_block": {
+      "textures": "textures/blocks/berrocal_block"
+    },
+    "berrocal:mossy_berrocal": {
+      "textures": "textures/blocks/mossy_berrocal"
+    },
+    "berrocal:polished_berrocal": {
+      "textures": "textures/blocks/polished_berrocal"
+    },
+    "berrocal:berrocal_bricks": {
+      "textures": "textures/blocks/berrocal_bricks"
+    },
+    "berrocal:berrocal_ore": {
+      "textures": "textures/blocks/berrocal_ore"
+    },
+    "berrocal:berilo_block": {
+      "textures": "textures/blocks/berilo_block"
+    },
+    "berrocal:berrocal_lamp": {
+      "textures": "textures/blocks/berrocal_lamp"
+    }
+  }
+}

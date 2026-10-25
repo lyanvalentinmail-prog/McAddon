@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Berrocal · Comportamiento",
+    "description": "Bloques, mena de berilo, gemas y herramientas del mundo de Berrocal. (Behavior Pack)",
+    "uuid": "ed751b39-7777-414b-acc7-cad0313ec028",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "description": "Definiciones de bloques, objetos, recetas y generación de mena de Berrocal.",
+      "type": "data",
+      "uuid": "1e7fc08d-41d3-4c9b-b31b-3112dd198d35",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "541d661e-0711-4010-8e26-4f90c089d16e",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["lyanvalentin"],
+    "license": "MIT",
+    "url": "https://github.com/lyanvalentinmail-prog/McAddon"
+  }
+}
